@@ -4,7 +4,6 @@ import "../css/DayDetails.css";
 import { convertTimestamptoTime } from "../js/convertUnitToLocalTime";
 
 export default function DayDetails({ weather }) {
-  console.log(weather);
   return (
     <div id="day-details">
       {" "}
