@@ -1,10 +1,10 @@
-import thunderstorm from "../src/assets/thunderstorm.gif";
-import drizzle from "../src/assets/drizzle.gif";
-import rain from "../src/assets/rain.gif";
-import snow from "../src/assets/snow.gif";
-import atmosphere from "../src/assets/atmosphere.gif";
-import clear from "../src/assets/clear.gif";
-import cloud from "../src/assets/clouds.gif";
+import thunderstorm from "../assets/thunderstorm.gif";
+import drizzle from "../assets/drizzle.gif";
+import rain from "../assets/rain.gif";
+import snow from "../assets/snow.gif";
+import atmosphere from "../assets/atmosphere.gif";
+import clear from "../assets/clear.gif";
+import cloud from "../assets/clouds.gif";
 
 
 export function set_background(id) {
