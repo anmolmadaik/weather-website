@@ -1,0 +1,19 @@
+.home-container {
+  padding: 30px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.layout-container {
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .home-container {
+    padding: 12px;
+  }
+
+  .info-main-tile {
+    padding: 16px;
+  }
+}

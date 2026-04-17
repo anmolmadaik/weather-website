@@ -1,0 +1,71 @@
+#hourly-details {
+  width: 100%;
+}
+
+
+.hourly-expanded {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  margin-top: 8px;
+  padding: 10px;
+
+  background: rgba(30, 41, 59, 0.85);
+  border-radius: 10px;
+}
+
+
+.hourly-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+
+.hourly-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+
+.hourly-grid div,
+.hourly-grid-3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 6px;
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.04);
+}
+
+
+.hourly-grid span:first-child,
+.hourly-grid-3 span:first-child {
+  font-size: 0.7rem;
+  opacity: 0.6;
+}
+
+
+.hourly-grid span:last-child,
+.hourly-grid-3 span:last-child {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+
+.hourly-extra {
+  text-align: center;
+  font-size: 0.85rem;
+  padding: 6px;
+
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.expand-content {
+  padding: 6px; 
+}

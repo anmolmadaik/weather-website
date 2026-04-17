@@ -1,0 +1,66 @@
+.expandable {
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+.expand-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 14px;
+  cursor: pointer;
+
+  background: rgba(30, 41, 59, 0.85);
+  border-radius: 10px;
+  transition: 0.2s;
+}
+
+.expand-header:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+
+.expand-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.expand-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.expand-content {
+  margin-top: 8px;
+  padding: 10px;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+
+.expand-content .expandable {
+  margin-top: 8px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.expandable {
+  contain: layout;
+}

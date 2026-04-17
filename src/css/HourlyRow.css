@@ -1,0 +1,36 @@
+.hourly-header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hourly-header-left img {
+  width: 40px;
+}
+
+.hourly-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.hourly-main {
+  font-weight: 600;
+}
+
+.hourly-weather {
+  font-size: 0.9rem;
+}
+
+.hourly-desc {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+
+@media (max-width: 768px) {
+  .hourly-header-left {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+}

@@ -1,0 +1,68 @@
+WRAPPER
+.weekly-list {
+  width: 100%;
+}
+
+
+.weekly-expanded {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+  padding: 10px;
+  margin-top: 6px;
+
+  background: rgba(30, 41, 59, 0.7);
+  border-radius: 10px;
+}
+
+
+.weekly-summary {
+  font-size: 0.85rem;
+  line-height: 1.4;
+  opacity: 0.85;
+  white-space: pre-line;
+}
+
+
+.weekly-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+}
+
+
+.weekly-grid div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 6px 8px;
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.05);
+}
+
+
+.weekly-grid span:first-child {
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+
+.weekly-grid span:last-child {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+
+.weekly-extra {
+  text-align: center;
+  padding: 6px;
+
+  font-size: 0.85rem;
+  border-radius: 8px;
+
+  background: rgba(255, 255, 255, 0.06);
+}
+
